@@ -2,7 +2,7 @@
 
 Personal portfolio site showcasing web design, front-end development, and QA testing work.
 
-**🔗 Live site:** [your-vercel-url-here.vercel.app](#) <!-- replace with your Vercel URL -->
+**🔗 Live site:** [Jelaine Absalon Portfolio](https://jelaine-portfolio.vercel.app/) <!-- replace with your Vercel URL -->
 
 ---
 
@@ -48,7 +48,7 @@ portfolio/
 
 - **Email:** jelainerabsalon@gmail.com <!-- replace -->
 - **LinkedIn:** [Jelaine Absalon](https://www.linkedin.com/in/jelaine-absalon-167600312/) <!-- replace -->
-- **Portfolio:** [Jelaine Absalon Portfolio](#) <!-- replace -->
+- **Portfolio:** [Jelaine Absalon Portfolio](https://jelaine-portfolio.vercel.app/) <!-- replace -->
 
 ---
 

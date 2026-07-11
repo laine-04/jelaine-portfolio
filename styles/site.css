@@ -64,8 +64,9 @@ section{padding:9rem 2rem}
 .btn-sm svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 /* ── WORK OVERVIEW MASONRY ── */
-.masonry-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:10px;height:620px}
-.masonry-item-tall{grid-row:span 2;position:relative;overflow:hidden;border-radius:10px;cursor:pointer}
+/* MASONRY: 3 cols, col1+col3 full height (tall, spans all 3 rows), col2 stacked 3-way */
+.masonry-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr 1fr;gap:10px;height:820px}
+.masonry-item-tall{grid-row:span 3;position:relative;overflow:hidden;border-radius:10px;cursor:pointer}
 .masonry-item-half{position:relative;overflow:hidden;border-radius:10px;cursor:pointer}
 .masonry-item-tall img,.masonry-item-half img{width:100%;height:100%;display:block;object-fit:cover;object-position:top center;position:absolute;top:0;left:0}
 .work-overlay{position:absolute;inset:0;background:rgba(0,0,0,0);transition:background .35s ease;display:flex;flex-direction:column;justify-content:flex-end;padding:1.2rem}
